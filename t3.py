@@ -1,7 +1,8 @@
-try:
-    args1 = input("引数1つ目を入力してください")
-    args2 = input("引数２つ目を入力してください")
 
+args1 = input("引数1つ目を入力してください")
+args2 = input("引数２つ目を入力してください")
+
+try:
     result = int(args1) + int(args2)
     print(f"結果：{result}")
 except ValueError:   
