@@ -6,7 +6,8 @@ try:
     result = int(args1) + int(args2)
     print(f"結果：{result}")
 except ValueError:   
-    print("エラー: 有効な数字を入力してください。")
+    print("エラーが発生しました")
+    print("有効な数字を入力してください")
 except Exception as e:
     print("エラーが発生しました")
 finally:
